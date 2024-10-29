@@ -8,7 +8,7 @@ export default function LadingPage() {
           {new Array(9).fill().map((arr) => {
             return (
               <>
-                <div className="box w-7 h-7 bg-[#65cdef]"></div>
+                <div className="box w-12 h-12 bg-[#65cdef]"></div>
               </>
             );
           })}
