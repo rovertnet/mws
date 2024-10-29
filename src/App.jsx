@@ -37,10 +37,11 @@ function App() {
   return (
     <>
       <LadingPage />
-      <div className="bg-black h-screen flex items-center justify-center">
+      <div className="bg-black h-screen flex flex-col items-center justify-center">
         <h1 className="font-extrabold text-8xl text-white uppercase  text-center">
           Bonjour!
         </h1>
+        <span className="font-bold text-purple-500 text-2xl">C'est Robert, Dev Web!</span>
       </div>
     </>
   );
