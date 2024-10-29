@@ -10,8 +10,10 @@ function App() {
       scale: 0,
       y: 60,
       duration: 1,
+      rotate: 400,
       stagger: {
-        amount: 4.5
+        amount: 1.5,
+        from: "start",
       }
     })
   })
