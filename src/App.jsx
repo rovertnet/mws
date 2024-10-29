@@ -9,13 +9,14 @@ function App() {
     tl.to(".box", {
       scale: 0,
       y: 60,
-      duration: 1,
       rotate: 400,
+      duration: 1,
+      delay: 0.9,
       stagger: {
         amount: 1.5,
-        from: "start",
-      }
-    })
+        from: "end",
+      },
+    });
   })
  
   return (
