@@ -14,9 +14,9 @@ function App() {
       delay: 0.9,
       stagger: {
         amount: 1.5,
-        from: "3",
+        from: "center",
         // axis: "y"
-        
+        grid: [3,3],
       },
     });
   })
