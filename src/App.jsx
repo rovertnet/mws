@@ -42,9 +42,12 @@ function App() {
         <h1 className="font-extrabold text-8xl text-white uppercase  text-center">
           Bonjour!
         </h1>
-        <span className="font-bold text-purple-500 text-2xl pt-1">
+        <span className="font-bold text-purple-500 text-2xl pt-1 pb-3">
           C'est Robert, Dev Web!
         </span>
+        <div className="bg-slate-700 rounded-full px-5 py-5 w-24 h-24">
+
+        </div>
       </div>
       <About />
     </>
