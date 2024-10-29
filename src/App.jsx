@@ -25,6 +25,12 @@ function App() {
     tl.to(".container", {
       rotate: "-405deg",
       scale: 0,
+      duration: 1,
+    })
+
+    tl.to(".wrapper", {
+      opacity: 0,
+      delay: 0,
     })
   })
  
