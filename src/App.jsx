@@ -1,6 +1,14 @@
+import { useLayoutEffect } from "react";
 import LadingPage from "./LadingPage";
+import gsap from "gsap";
 
 function App() {
+
+  useLayoutEffect(() => {
+    let ctx = gsap.context(() => {
+      
+    })
+  })
 
   return (
     <>
