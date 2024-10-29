@@ -30,7 +30,7 @@ function App() {
 
     tl.to(".wrapper", {
       opacity: 0,
-      delay: 0,
+      display: "none"
     })
   })
  
