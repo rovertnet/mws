@@ -1,4 +1,3 @@
-import { useLayoutEffect } from "react";
 import LadingPage from "./LadingPage";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -8,9 +7,7 @@ function App() {
   useGSAP(() => {
     let tl = gsap.timeline();
     tl.to(".box", {
-      scale: 0,
-      y: 60,
-      duration: 1
+      
     })
   })
  
