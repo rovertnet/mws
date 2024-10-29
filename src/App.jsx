@@ -11,7 +11,9 @@ function App() {
       y: 60,
       rotate: 400,
       duration: 1,
-      delay: 0.9,
+      repeat: 1,
+      yoyo:true,
+      delay: 0.5,
       stagger: {
         amount: 1.5,
         from: "center",
@@ -19,6 +21,10 @@ function App() {
         grid: [3,3],
       },
     });
+
+    tl.to(".container", {
+      rotate: "-405deg",
+    })
   })
  
   return (
