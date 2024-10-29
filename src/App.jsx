@@ -1,6 +1,7 @@
 import LadingPage from "./LadingPage";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import About from "./About";
 
 function App() {
 
@@ -41,8 +42,11 @@ function App() {
         <h1 className="font-extrabold text-8xl text-white uppercase  text-center">
           Bonjour!
         </h1>
-        <span className="font-bold text-purple-500 text-2xl pt-1">C'est Robert, Dev Web!</span>
+        <span className="font-bold text-purple-500 text-2xl pt-1">
+          C'est Robert, Dev Web!
+        </span>
       </div>
+      <About />
     </>
   );
 }
