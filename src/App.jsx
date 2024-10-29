@@ -9,7 +9,10 @@ function App() {
     tl.to(".box", {
       scale: 0,
       y: 60,
-      duration: 1
+      duration: 1,
+      stagger: {
+        amount: 4.5
+      }
     })
   })
  
