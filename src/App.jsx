@@ -1,15 +1,15 @@
 import { useLayoutEffect } from "react";
 import LadingPage from "./LadingPage";
 import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 function App() {
 
-  useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-      
-    })
+  useGSAP(() => {
+    let tl = gsap.timeline();
+    
   })
-
+ 
   return (
     <>
       <LadingPage />
