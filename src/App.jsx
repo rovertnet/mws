@@ -16,7 +16,7 @@ function App() {
       delay: 0.5,
       stagger: {
         amount: 1.5,
-        from: "center",
+        from: "start",
         // axis: "y"
         grid: [3,3],
       },
@@ -24,6 +24,7 @@ function App() {
 
     tl.to(".container", {
       rotate: "-405deg",
+      scale: 0,
     })
   })
  
