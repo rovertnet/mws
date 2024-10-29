@@ -7,7 +7,9 @@ function App() {
   useGSAP(() => {
     let tl = gsap.timeline();
     tl.to(".box", {
-      
+      scale: 0,
+      y: 60,
+      duration: 1
     })
   })
  
