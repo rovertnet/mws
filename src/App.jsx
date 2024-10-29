@@ -2,7 +2,7 @@ import LadingPage from "./LadingPage";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import About from "./About";
-import
+import rp from "./assets/RP1.jpeg"
 
 function App() {
 
@@ -46,8 +46,8 @@ function App() {
         <span className="font-bold text-purple-500 text-2xl pt-1 pb-3">
           C'est Robert, Dev Web!
         </span>
-        <div className="bg-gray-900 rounded-full px-5 py-5 w-24 h-24">
-          <img src="" alt="" className="" />
+        <div className="bg-gray-900 rounded-full p-5 py-5 w-40 h-40 flex items-center justify-center">
+          <img src={rp} alt={rp} className="rounded-full w-28 h-28 object-cover" />
         </div>
       </div>
       <About />
