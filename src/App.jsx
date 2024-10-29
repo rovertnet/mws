@@ -46,8 +46,12 @@ function App() {
         <span className="font-bold text-purple-500 text-2xl pt-1 pb-3">
           C'est Robert, Dev Web!
         </span>
-        <div className="bg-gray-900 rounded-full p-5 py-5 w-40 h-40 flex items-center justify-center">
-          <img src={rp} alt={rp} className="rounded-full w-28 h-28 object-cover" />
+        <div className="bg-gray-900 rounded-full p-5 py-5 w-52 h-52 flex items-center justify-center">
+          <img
+            src={rp}
+            alt={rp}
+            className="border-[7px] border-slate-300 px- rounded-full w-40 h-40 object-cover"
+          />
         </div>
       </div>
       <About />
