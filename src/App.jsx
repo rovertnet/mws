@@ -46,7 +46,7 @@ function App() {
         <span className="font-bold text-purple-500 text-2xl pt-1 pb-3">
           C'est Robert, Dev Web!
         </span>
-        <div className="bg-gray-900 rounded-full p-5 py-5 w-52 h-52 flex items-center justify-center">
+        <div className="bg-white/10 rounded-full p-5 py-5 w-52 h-52 flex items-center justify-center">
           <img
             src={rp}
             alt={rp}
