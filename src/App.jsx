@@ -40,7 +40,7 @@ function App() {
     <>
       <LadingPage />
       <div className="bg-black h-screen flex flex-col items-center justify-center">
-        <h1 className="font-extrabold text-8xl uppercase  text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500">
+        <h1 className="font-extrabold text-8xl uppercase  text-center text-transparent bg-clip-text bg-gradient-to-b from-purple-700 to-orange-500">
           Bonjour!
         </h1>
         <span className="font-bold text-purple-500 text-2xl pt-1 pb-3">
@@ -50,7 +50,7 @@ function App() {
           <img
             src={rp}
             alt={rp}
-            className="border-[7px]  border-slate-300 rounded-full w-40 h-40 object-cover"
+            className="border-[7px] bg-clip-border bg-gradient-to-b border-slate-300 rounded-full w-40 h-40 object-cover"
           />
         </div>
       </div>
