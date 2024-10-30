@@ -40,7 +40,7 @@ function App() {
     <>
       <LadingPage />
       <div className="bg-black h-screen flex flex-col items-center justify-center">
-        <h1 className="font-extrabold text-8xl text-white uppercase  text-center">
+        <h1 className="font-extrabold text-8xl uppercase  text-center text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-white">
           Bonjour!
         </h1>
         <span className="font-bold text-purple-500 text-2xl pt-1 pb-3">
