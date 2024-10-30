@@ -44,7 +44,7 @@ function App() {
           Bonjour!
         </h1>
         <span className="font-bold text-purple-500 text-2xl pt-1 pb-3">
-          C'est Robert, Dev Web!
+          C'est Robert, Développeur Web!
         </span>
         <div className="bg-white/10 rounded-full p-5 py-5 w-52 h-52 flex items-center justify-center">
           <img
