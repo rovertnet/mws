@@ -50,7 +50,7 @@ function App() {
           <img
             src={rp}
             alt={rp}
-            className="border-[7px] bg-clip-border bg-gradient-to-b border-slate-300 rounded-full w-40 h-40 object-cover"
+            className="border-[7px] bg-clip-border bg-gradient-to-br from-purple-400 to-orange-400 rounded-full w-40 h-40 object-cover"
           />
         </div>
       </div>
