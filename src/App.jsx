@@ -1,7 +1,6 @@
 import LadingPage from "./LadingPage";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import About from "./About";
 import rp from "./assets/RP1.jpeg"
 
 function App() {
@@ -54,7 +53,6 @@ function App() {
           />
         </div>
       </div>
-      <About />
     </>
   );
 }
