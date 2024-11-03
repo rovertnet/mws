@@ -2,6 +2,7 @@ import LadingPage from "./LadingPage";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import rp from "./assets/RP1.jpeg"
+import Menus from "./components/Menus";
 
 function App() {
 
@@ -38,6 +39,8 @@ function App() {
   return (
     <>
       <LadingPage />
+
+      <Menus />
       <div className="bg-black h-screen flex flex-col items-center justify-center">
         <h1 className="font-extrabold text-8xl uppercase  text-center text-transparent bg-clip-text bg-gradient-to-b from-orange-400 from-10% via-white via-30% to-purple-700 to-90% ...">
           Bonjour!
